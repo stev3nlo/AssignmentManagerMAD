@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Assignment Name:"
+        android:id="@+id/name"
+        android:layout_x="33dp"
+        android:layout_y="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Class:"
+        android:id="@+id/textView"
+        android:layout_x="137dp"
+        android:layout_y="178dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Description:"
+        android:id="@+id/description"
+        android:layout_x="89dp"
+        android:layout_y="90dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Due Date:"
+        android:id="@+id/dueDate"
+        android:layout_x="110dp"
+        android:layout_y="229dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Priority:"
+        android:id="@+id/priority"
+        android:layout_x="127dp"
+        android:layout_y="301dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Assignment"
+        android:id="@+id/finishAdding"
+        android:layout_x="117dp"
+        android:layout_y="374dp"
+        android:onClick="finishAdding" />
+
+    <EditText
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameInput"
+        android:layout_x="191dp"
+        android:layout_y="28dp" />
+
+    <EditText
+        android:layout_width="159dp"
+        android:layout_height="81dp"
+        android:id="@+id/descInput"
+        android:layout_x="196dp"
+        android:layout_y="84dp" />
+
+    <EditText
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/classInput"
+        android:layout_x="199dp"
+        android:layout_y="174dp" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/month"
+        android:layout_x="203dp"
+        android:layout_y="223dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="/"
+        android:id="@+id/slash1"
+        android:layout_x="242dp"
+        android:layout_y="229dp" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day"
+        android:layout_x="253dp"
+        android:layout_y="224dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="/"
+        android:id="@+id/slash2"
+        android:layout_x="291dp"
+        android:layout_y="229dp" />
+
+    <EditText
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/year"
+        android:layout_x="300dp"
+        android:layout_y="224dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" (MM/DD/YYYY)"
+        android:id="@+id/mdy"
+        android:layout_x="89dp"
+        android:layout_y="258dp" />
+
+    <Spinner
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/priorityInput"
+        android:layout_x="200dp"
+        android:layout_y="294dp"
+        android:spinnerMode="dropdown" />
+
+</AbsoluteLayout>
